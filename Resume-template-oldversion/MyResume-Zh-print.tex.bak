@@ -1,0 +1,105 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass{res}
+
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black]{hyperref}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+\usepackage{CJK}
+\usepackage[top=0.1in,bottom=0.1in,left=0.71in]{geometry}
+
+\begin{document}
+\begin{resume}
+\begin{CJK*}{GBK}{song}
+\begin{center}
+\huge{\textbf{黄炳良}}
+\end{center}
+\section{\Large{个人概况}}{
+    \vspace{0.05in}
+    学校：北京邮电大学	\hfill 电话：13581790439 \\
+    \href{mailto:binglianghuang@gmail.com}{Email：binglianghuang@gmail.com}	 \hfill \href{http://blogger.souldak.com}{Website: blogger.souldak.com}\\
+
+}
+\vspace{-0.25in}
+\section{\Large{实习经历}}{
+	\vspace{0.05in}
+	\textbf{\large {百度网页搜索部\ 研发工程师}} \hfill 2011/10-2012/3 \\
+	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+		\item 负责网页分类算法调研与策略制定，期间网页分类准确率提升5\%
+		\item 编写Shell脚本及hadoop脚本分析搜索日志，进行数据挖掘
+		\item 用PHP编写网页打分工具，打分速度提升1倍以上
+ 	\end{itemize}
+    \vspace{-0.11in}
+ 	\textbf{\large {百度移动互联网\ 测试研发工程师 }} \hfill 2011/3-2011/6 \\
+	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+		\item 辅助百度转码服务核心转码模块测试
+		\item 完成百度移动开放平台网站的测试
+		\item 设计自动化Case，提高自动化测试程度
+ 	\end{itemize}
+    \vspace{-0.11in}
+ 	\textbf{\large {北京达昌高清技术有限公司\ 网站开发工程师}} \hfill 2010/7-2010/9\\
+	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+        \item 参与负责公司内部网站的设计与开发
+        \item 负责网站后台的编写
+ 	\end{itemize}
+}
+\vspace{-0.1in}
+\section{\Large{项目经历}}
+    \vspace{0.05in}
+	\textbf{\large {ACM算法研究}} \hfill 2012/1-present \\
+ 	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+		\item 经典ACM算法的研究与实现。代码在github上：\\
+		 \href{https://github.com/evagle/src}{\tt git@github.com:evagle/src.git}
+ 	\end{itemize}
+    \vspace{-0.11in}
+ 	\textbf{\large {Lepad平板电脑智能点餐系统}} \hfill 2011/9-present \\
+ 	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+		\item 独立完成服务器端菜谱的添加，修改，删除功能、订单的接收和处理系统的设计与实现。包括网站界面的设计，PHP代码编写
+		\item Lepad平板的查看菜谱，点餐，提交订单，服务反馈功能的设计与实现，负责包括软件的UI设计，代码编写调试，软件升级和维护
+		\item 服务器端和Lepad之间的通信协议的设计与编码实现
+ 	\end{itemize}
+ 	\vspace{-0.11in}
+    \textbf{\large {人人网爬虫}} \hfill 2010/7-2010/8 \\
+ 	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+		\item 自学java编写爬虫抓取人人网好友列表
+		\item 优化数据结构，解决抓取速度慢以及网站反爬虫问题
+ 	\end{itemize}
+\vspace{-0.1in}
+\section{\Large{专业技能}}
+    \begin{itemize}
+    	\item 熟悉掌握C/C++,JAVA,PHP
+        \item 熟悉通用算法与数据结构
+        \item 了解C\#,MFC及windows API
+        \item 熟悉Hadoop Stream程序设计
+        \item 熟悉Linux及Linux相关命令，熟练使用Shell
+        \item 了解WEB相关技术，包括HTML，CSS，JAVASCRIPT
+        \item 熟悉android开发
+    \end{itemize}
+\vspace{-0.1in}
+\section{\Large{获奖情况}}{
+\vspace{0.05in}
+\normalsize
+    北京邮电大学ACM算法与程序设计竞赛银奖 \hfill 2011/3\\
+    飞思卡尔全国智能车大赛全国二等奖  \hfill 2011/8\\
+    全国大学生电子设计大赛北京一等  \hfill 2011/9\\
+    国家励志奖学金 \hfill 2010,2011,2012\\
+}
+\vspace{-0.23in}
+\section{\Large{兴趣爱好}}{
+    Coding，台球，游泳，乒乓球，羽毛球，关注IT新闻
+    }
+\end{CJK*}
+\end{resume}
+
+\end{document}

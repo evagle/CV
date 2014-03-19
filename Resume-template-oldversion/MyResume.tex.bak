@@ -1,0 +1,113 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[a4paper]{res}
+%\usepackage[colorlinks]{hyperref}
+
+
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black]{hyperref}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+\usepackage[top=0.4in,bottom=0.1in,left=0.7in]{geometry}
+
+\name{BRIAN HUANG\\[6pt]}
+%\vspace{-0.3in}
+
+\address{ \\ \href{http://www.bupt.edu.cn/}{Beijing University of Posts and Telecommunications}
+\\No.10, Xitucheng Road, Haidian District
+\\Beijing, China, 100876}
+
+\address{ \\Mobile: ($+$86) 135-8179-0439
+\\Email: \href{mailto:binglianghuang@gmail.com}{\tt binglianghuang@gmail.com}
+\\Website: \href{http://blogger.souldak.com}
+  {\tt blogger.souldak.com}
+}
+\begin{document}
+
+
+\begin{resume}
+
+\section{INTERNSHIP EXPERIENCE}{
+    \vspace{-0.05in}
+    \hspace{-0.5in}{\rule{17.5cm}{0.02cm}}
+	%\vspace{0.05in}
+	\textbf{\normalsize {Software Development Engineer}} \hfill 2011/10-2012/3 \\
+	\textit{Baidu Page Search Department}\\
+	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+		\item Participated in web page classification algorithm research project, improved classification \\ accuracy by 5\%
+		\item Wrote shell scripts and hadoop streaming scripts to analyze search  logs
+		\item Accomplished a webpage weighting assistant program, halved the time of webpage weighting
+ 	\end{itemize}
+    \vspace{-0.09in}
+ 	\textbf{\normalsize {Software Development Engineer in Test}} \hfill 2011/3-2011/6 \\
+	\textit{Baidu Mobile Internet Department}\\
+	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+		\item Assisted testing the core module of Baidu transcoder service
+		\item Responsible for the testing of site of Baidu Mobile Open platform
+		\item Handled the testing, joint debugging and on-line of multiple B or C level projects
+		\item Written system-level and module-level automation test cases
+ 	\end{itemize}
+}
+\section{PROJECT EXPERIENCE}{
+    \vspace{-0.05in}
+    \hspace{-0.5in}{\rule{17.5cm}{0.02cm}}
+	\textbf{\normalsize {Researches on ACM/ICPC Algorithms}} \hfill 2012/1-present \\
+ 	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+		\item Studying and implementing some classic but useful ACM algorithms
+		\item Anyone can get source codes from my github:\\ \href{https://github.com/evagle/src}{\tt git@github.com:evagle/src.git}
+ 	\end{itemize}
+    \vspace{-0.09in}
+ 	\textbf{\normalsize {Food Ordering System based on Lenovo Lepad}} \hfill 2011/9-present \\
+ 	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+		\item Designed and implemented all of the server functions.Including adding , modifying and \\ deleting recipes and creating, handling and destroying orders
+		\item Worked with a UI designer finished basic operations of Lepad Application, containing \\scanning recipes, ordering and gathering customer's satisfactions
+		\item Designed communication protocols for server and Lepad client
+		\item Responsible for coding, debugging, running and software maintenance of the system
+ 	\end{itemize}
+    \vspace{-0.09in}
+ 	\textbf{\normalsize {A Crawler of RenRen}} \hfill 2010/7-2010/8 \\
+ 	\vspace{-0.13in}
+	\begin{itemize} \itemsep -2pt  % reduce space between items
+		\item Learned java by myself and wrote a crawler to get friend list from RenRen
+		\item Optimized data structure to speed up and found website's vulnerability to \\avoid it's anti-crawler mechanism
+
+ 	\end{itemize}
+ }
+\section{SKILLS}
+    \vspace{-0.05in}
+    \hspace{-0.5in}{\rule{17.5cm}{0.02cm}}
+    \begin{itemize}
+    	\item Familiar with C/C++/JAVA/PHP
+		\item Proficient in generic algorithms and data structure
+		\item Known something about C\#/MFC/Windows API
+		\item Experience of hadoop streaming programming
+		\item Familiar with Linux and Linux commands, skilled in SHELL programming
+		\item Expertise in ANDROID developing
+		\item Ability of using HTML/CSS/JAVASCRIPT to design a website
+    \end{itemize}
+
+\section{HONORS AND AWARDS}
+    \vspace{-0.05in}
+    \hspace{-0.5in}{\rule{17.5cm}{0.02cm}}
+    \normalsize
+    Silver of BUPT ACM Algorithm Programming Contest \hfill 2011/3\\
+Second Prize of National Freescale Smart Car Competition  \hfill 2011/8\\
+First Prize of National Undergraduate Electronic Design Contest  \hfill 2011/9\\
+Three year's National Motivational Scholarships \hfill 2010,2011,2012
+
+\section{INTERESTS}
+    \vspace{-0.05in}
+    \hspace{-0.5in}{\rule{17.5cm}{0.02cm}}
+    \vspace{0.05in}
+    Swimming, Playing Badminton, Playing Billiards, Reading IT news, Coding
+\end{resume}
+
+\end{document} 

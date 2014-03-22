@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.1 (MiKTeX 2.8) (preloaded format=xelatex 2014.3.17)  17 MAR 2014 17:54
+This is XeTeX, Version 3.1415926-2.2-0.9995.1 (MiKTeX 2.8) (preloaded format=xelatex 2014.3.17)  22 MAR 2014 08:24
 entering extended mode
 **huangbingliang.tex
-(D:\Download\latexresume\latexÖÐÎÄ¼òÀúÄ£°å\huangbingliang.tex
+(D:\gitrepo\CV\latex-zh\huangbingliang.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
-(D:\Download\latexresume\latexÖÐÎÄ¼òÀúÄ£°å\moderncv.cls
+(D:\gitrepo\CV\latex-zh\moderncv.cls
 Document Class: moderncv 2008/06/17 v0.7 modern curriculum vitae document class
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\base\size12.clo"
@@ -202,8 +202,7 @@ Package graphics Info: Driver file: xetex.def on input line 91.
 \f@ncyO@olf=\skip48
 \f@ncyO@orf=\skip49
 )
-(D:\Download\latexresume\latexÖÐÎÄ¼òÀúÄ£°å\moderncvcompatibility.st
-y
+(D:\gitrepo\CV\latex-zh\moderncvcompatibility.sty
 Package: moderncvcompatibility 2008/06/17 v0.7 modern curriculum vitae compatib
 ility patches
 )
@@ -215,7 +214,8 @@ ility patches
 \listitemsymbolwidth=\skip55
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 257.
 
- ("D:\Program Files\CTEX\MiKTeX\tex\latex\base\omscmr.fd"
+
+("D:\Program Files\CTEX\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -593,7 +593,7 @@ Package: geometry 2008/12/21 v4.2 Page Geometry
 \Gm@dimlist=\toks20
 
 ("D:\Program Files\CTEX\MiKTeX\tex\xelatex\xetexconfig\geometry.cfg"))
-(D:\Download\latexresume\latexÖÐÎÄ¼òÀúÄ£°å\huangbingliang.aux)
+(D:\gitrepo\CV\latex-zh\huangbingliang.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
@@ -627,12 +627,16 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 LaTeX Info: Redefining \ref on input line 95.
 LaTeX Info: Redefining \pageref on input line 95.
 
-(D:\Download\latexresume\latexÖÐÎÄ¼òÀúÄ£°å\huangbingliang.out)
-(D:\Download\latexresume\latexÖÐÎÄ¼òÀúÄ£°å\huangbingliang.out)
+(D:\gitrepo\CV\latex-zh\huangbingliang.out)
+(D:\gitrepo\CV\latex-zh\huangbingliang.out)
 \@outlinefile=\write3
 \AtBeginShipoutBox=\box28
 
-(D:\Download\latexresume\latexÖÐÎÄ¼òÀúÄ£°å\moderncvthemehht.sty
+(D:\gitrepo\CV\latex-zh\moderncvthemehbl.sty
+
+LaTeX Warning: You have requested package `moderncvthemehbl',
+               but the package provides `moderncvthemehht'.
+
 Package: moderncvthemehht 2008/06/17 v0.7 modern curriculum vitae style: hht
 Package color Info: Redefining color firstnamecolor on input line 62.
 Package color Info: Redefining color familynamecolor on input line 63.
@@ -978,11 +982,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\xeCJK@family' on input line 154.
 
-[2] (D:\Download\latexresume\latexÖÐÎÄ¼òÀúÄ£°å\huangbingliang.aux) 
-) 
+[2] (D:\gitrepo\CV\latex-zh\huangbingliang.aux) ) 
 Here is how much of TeX's memory you used:
  9766 strings out of 430435
- 154118 string characters out of 3189839
+ 153966 string characters out of 3189839
  267399 words of memory out of 3000000
  12741 multiletter control sequences out of 15000+200000
  8488 words of font info for 66 fonts, out of 3000000 for 9000

@@ -1,0 +1,172 @@
+% !Mode:: "TeX:UTF-8"
+%% start of file `template_en.tex'.
+%% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,a4paper,xetex]{moderncv}
+
+
+\usepackage{fontspec,xunicode,xltxtra} % 加载 xetex 的宏包
+
+% 以下是英文字体的设置
+\defaultfontfeatures{Scale=MatchLowercase} % 这个参数保证 serif、sans-serif 和 monospace 字体在小写时大小匹配
+\setmainfont[Numbers=OldStyle,Mapping=tex-text]{Times New Roman} % 使用 Garamond 字体，把数字设置为等宽，比较好看
+\setsansfont[Mapping=tex-text]{Times New Roman} % 使用 XeTeX 的 text-mapping 方案，正确显示 LaTeX 样式的双引号（`` ''）
+\setmonofont{Times New Roman}
+
+% 以下是中文字体的设置
+\usepackage[slantfont,boldfont,CJKnumber,CJKtextspaces]{xeCJK} % 加载 xeCJK，允许斜体、粗体和 CJK 数字以及 CJK 对空格的设置
+\setCJKmainfont[BoldFont={SimHei}, ItalicFont={KaiTi}]{SimSun}
+\setCJKsansfont{KaiTi}
+\setCJKmonofont{STFangsong}
+
+
+\setCJKfamilyfont{song}{SimSun}
+\setCJKfamilyfont{kai}{KaiTi}
+\setCJKfamilyfont{hei}{SimHei}
+\setCJKfamilyfont{yao}{FZYaoTi}
+\setCJKfamilyfont{hwkai}{STKaiti}
+\setCJKfamilyfont{hwfs}{STFangsong}
+\setCJKfamilyfont{hws}{STSong}
+\setCJKfamilyfont{fs}{FangSong}
+\setCJKfamilyfont{yahei}{SimHei}
+
+\newcommand\song{\CJKfamily{song}}
+\newcommand\kai{\CJKfamily{kai}}
+\newcommand\hei{\CJKfamily{hei}}
+\newcommand\yao{\CJKfamily{yao}}
+\newcommand\hwkai{\CJKfamily{hwkai}}
+\newcommand\hwfs{\CJKfamily{hwfs}}
+\newcommand\hws{\CJKfamily{hws}}
+\newcommand\fs{\CJKfamily{fs}}
+\newcommand\yahei{\CJKfamily{yahei}}
+
+\newcommand{\erhao}{\fontsize{22pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{16pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosanhao}{\fontsize{15pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.5pt}{\baselineskip}\selectfont}
+
+
+
+% moderncv themes
+%\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem casual
+\moderncvtheme[blue,roman]{hbl}
+% character encoding
+%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{\song{黄炳良}}
+\familyname{}
+\title{个人简历}               % optional, remove the line if not wanted
+\address{北京市海淀区西土城路10号北京邮电大学}{邮编：100876 }    % optional, remove the line if not wanted
+\mobile{18511180646}                    % optional, remove the line if not wanted
+%\mobile{15164566028}
+%\phone{13009856869}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{binglianghuang@gmail.com}
+
+%\email{hhtdeemail@gmail.com}                     % optional, remove the line if not wanted
+%\extrainfo{http://hhtao.weebly.com} % optional, remove the line if not wanted
+\photo[32pt]{xiaohui.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{北京邮电大学~~计算机~~硕士研究生}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{\fs{基本信息}}
+\cvcomputer{姓~~~~~~~~名：}{黄炳良}{性~~~~~~~~别：}{男}
+\cvcomputer{籍~~~~~~~~贯：}{江西赣州}{出生日期：}{1990-04-14}
+\cvcomputer{Github：}{github.com/evagle}{Blog:}{blog.csdn.net/souldak}
+\cvcomputer{Phone：}{18511180646}{Email：}{binglianghuang@gmail.com}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\fs{专业能力}}
+\cvline{\kai{编程语言}}{$\bullet$ 熟练掌握C/C++,JAVA,PHP等编程语言}
+\cvline{\kai{算法}}{$\bullet$ 熟悉算法与数据结构}
+\cvline{\kai{Linux}}{$\bullet$ 熟悉Linux及Linux相关命令，熟练使用SHELL}
+\cvline{\kai{Web}}{$\bullet$ 了解HTML,CSS,JAVASCRIPT等WEB相关技术}
+
+\section{\fs{语言能力}}
+\cvline{TOEFL}{95~~~~ Reading:30/30~~~Lisening:24/30~~~Writing:23/30~~~Speaking:18/30}
+\cvline{GRE}{ 323~~~Verbal:153/170~~~Quantitative:170/170}
+
+\section{\fs{实习经历}}
+\cvline{2013.11--2014.3}{Amazon~~SDE Intern}
+\cvline{}{$\bullet$ Reporting系统的新功能开发，将数据图表化方式展现}
+\cvline{}{$\bullet$ Data Services Provider 开发。从数据库中分析出需要的数据，然后以REST的方式提供调用接口}
+
+\cvline{2012.7--2013.2}{一点网聚~~研发工程师}
+\cvline{}{$\bullet$ 协助完成用户日志分析统计dashboard第一版设计与开发}
+\cvline{}{$\bullet$ 独立负责dashboard第二版后台开发，代码重构，速度提升10倍，极大降低了报告时延，能够处理更大用户量}
+\cvline{}{$\bullet$ 用JSP完成Report Web前端开发}
+\cvline{2011.10--2012.3}{百度网页搜索部~~研发工程师}
+\cvline{}{$\bullet$ 负责网页分类算法调研与策略制定，提高分类的准确率}
+\cvline{}{$\bullet$ 编写Shell脚本以及hadoop脚本统计和分析用户的搜索日志}
+\cvline{}{$\bullet$ PHP编写网页打分辅助工具，用以辅助人工进行对网页分类，能够自动存储和汇总打分结果，极大方便了测试人员提供训练数据}
+\cvline{2011.3--2011.6}{百度移动互联网~~测试开发工程师}
+\cvline{}{$\bullet$ 协助百度转码服务核心转码模块的测试}
+\cvline{}{$\bullet$ 独立完成百度移动开放平台网站的测试}
+\cvline{}{$\bullet$ 整理和编写自动化测试case，提高自动化测试程度，减少重复测试}
+
+\section{\fs{项目经历}}
+\cvline{2012.8--2012.12}{ABWord快速背单词}
+\cvline{\kai{简介}}{ABword是业余时间开发的开源背单词软件。依据艾宾浩斯记忆曲线智能安排单词背诵和复习时间，收录了TOEFL和GRE的核心词汇，并附有近义词反义词，让单词背诵更加轻松}
+\cvline{}{$\bullet$ 初始的软件需求分析，软件功能和UI设计，算法数据结构设计}
+\cvline{}{$\bullet$ 实现Android版本的开发，获取单词数据并导入}
+\cvline{}{$\bullet$ 添加背诵效果统计图，并且优化程序启动速度}
+
+\cvline{2012.8--2012.12}{Lestaurant餐厅自助点餐APP}
+\cvline{\kai{简介}}{Lestaurant基于Lepad平板提供简单方便的菜谱，拥有完善的点菜功能。不但减少菜单的设计和印制成本，还能提高点餐效率，并且能偶方便的统计分析用户的点菜喜好和销售排行。}
+\cvline{}{$\bullet$ 独立设计与实现服务器端的菜谱系统和订单系统，建立网站方便后台查看和管理。}
+\cvline{}{$\bullet$ Android App的菜谱浏览，点餐，订单提交，服务反馈，菜品推荐等功能的设计实现。}
+\cvline{}{$\bullet$ 优化服务器和Android端交互流程，减少流量。优化App的初次菜谱载入速度和浏览的流畅度。}
+\cvline{}{$\bullet$ 统计分析客户偏好和并实现菜品推荐系统。}
+
+
+\section{\fs{获奖经历}}
+\cvline{2014.3}{北京邮电大学ACM算法与程序设计竞赛银奖}
+\cvline{2011.8}{全国大学生电子设计大赛北京一等奖}
+\cvline{2012.3}{北京邮电大学ACM算法与程序设计竞赛铜奖}
+\cvline{2011.3}{北京邮电大学ACM算法与程序设计竞赛银奖}
+\cvline{2011.8}{飞思卡尔全国智能车大赛全国二等奖}
+\cvline{2010--2012}{国家励志奖学金}
+
+\section{\fs{爱兴趣好}}
+\cvlistdoubleitem[\Neutral]{Coding}{IT新闻}
+\cvlistdoubleitem[\Neutral]{羽毛球}{乒乓球}
+\cvlistdoubleitem[\Neutral]{跑步}{游泳}
+
+
+%\section{\fs{自我评价}}
+%\cvline{\kai{性格}}{开朗、活泼、乐观}
+%\cvline{\kai{学习}}{勤奋严谨，有钻研精神，动手能力强，有很强的自学能力}
+%\cvline{\kai{生活}}{勤俭节约，吃苦耐劳，热爱集体，乐于助人，积极参加各类公共活动，有良好的人际关系}
+%\cvline{\kai{工作}}{做事细心，认真负责，能够高效率的完成工作，易于沟通，具有良好的团队意识，热爱自己从事的工作，敢挑重担}
+
+
+\end{document}
+
+
+%% end of file `template_en.tex'.

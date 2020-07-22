@@ -91,28 +91,29 @@
 \cvline{Engineering}{$\bullet$ Design and implement Pre-Search Suggestion Service to show recommended keywords before searching}
 \cvline{}{$\bullet$ Train defect aware ranking model (based on gbdt) for CN/ES to reduce defect at top K}
 \cvline{}{$\bullet$ Launch Suggested Search widget in search page to refine customer's search query and guide to new search, which proves to be a big win}
-\cvline{}{$\bullet$ Redesign and develop a new routing service to replace URL Interception and Deeplinking module in iOS}
+\cvline{}{$\bullet$ Redesign and developed new routing service to replace URL Interception and Deeplinking module in iOS}
+\cvline{}{}
 
-\vspace{0.5em}
 \cventry{2014-2017}{Co-Funder}{Beijing ZhiJianHuDong Network Technology Co., Ltd}{}{}{}
 \cvline{}{CityPet is a LBS based mobile game which wins App Store free list top 1 on July 2016. Total registered user: 10+ million. Highest DAU: 1 million.}
-\cvline{Development}{$\bullet$ Create self-owned game engine based on PHP; Design a high scalability and high performance game server architecture using LB, cluster, cache and combination usage of Redis, LevelDB, MySQL and Mongo}
+\cvline{Development}{$\bullet$ Create self-owned game engine based on php; Design a high scalability and high performance game server architecture using LB, Cluster, Cache and combination usage of Redis, Leveldb, Mysql and Mongo}
 \cvline{}{$\bullet$ Develop more than 15 game modules including login, pets, equipments, skills, chat, push notification, etc}
 \cvline{}{$\bullet$ Apply security strategies to secure game server including network encryption, database access control, token authentication and so on}
-\cvline{}{$\bullet$ Implement network framework, resource management framework and Lua UI framework for client development.}
+\cvline{}{$\bullet$ Design network framework, resource management framework and Lua UI framework for client development.}
 \cvline{Operation}{$\bullet$ Build monitoring, alarm system and game dashboard to facilitate operation}
 \cvline{}{$\bullet$ Use docker and deployment scripts to fast deploy game server to 300+ machines; }
-\cvline{}{$\bullet$ Resolve issues: 502 responses in high-concurrency situations, request replay attacks, abnormal disconnect of redis connections, game accelerator, mongo attack and so on.}
+\cvline{}{$\bullet$ Solved various problems: 502 responses in high-concurrency situations, request replay attacks, abnormal disconnect of redis connections, game accelerator, mongo attack and so on.}
+
 
 
 \cventry{2013-2014.3}{SDE Intern}{Amazon China}{}{}{}
-\cvline{}{$\bullet$ Implement new functions and data visualization for reporting system.}
+\cvline{}{$\bullet$ Implemented new functions and data visualization of reporting system.}
 \cvline{}{$\bullet$ Extract and analyze report data and provide them with RESTful API.}
 
-\vspace{0.5em}
+
 \cventry{2011-2012.3}{SDE Intern}{Baidu Page Search Department}{}{}{}
-\cvline{}{$\bullet$ Participate in web page classification algorithm research project and improve classification accuracy by 5 percent}
-\cvline{}{$\bullet$ Accomplish web page weighting assistant system using PHP, half the time cost to weight web page}
+\cvline{}{$\bullet$ Participated in web page classification algorithm research project and improve classification accuracy by 5 percent}
+\cvline{}{$\bullet$ Accomplished web page weighting assistant system using PHP, half the time cost to weight web page}
 
 %\section{Extracurricular Activities}
 %\cventry{2009--10}{Commencement representative}{Drexel University College of Medicine}{Philadelphia, PA}{}{}
@@ -123,17 +124,16 @@
 %\cventry{2006--2007}{Pediatric Aids Benefit Concert auction coordinator}{Drexel University College of Medicine}{Philadelphia, PA}{}{}
 
 \section{HONORS}
-\cvline{}{$\bullet$ Outstanding Graduates of BUPT}
-\cvline{}{$\bullet$ Silver Medal of BUPT ACM Algorithm Programming Contest}
-\cvline{}{$\bullet$ First Prize of National Undergraduate Electronic Design Contest}
-\cvline{}{$\bullet$ National Motivational Scholarships for 3 years}
+\cvline{}{Silver medal of BUPT ACM Algorithm Programming Contest}
+\cvline{}{Outstanding Graduates of BUPT}
+\cvline{}{National Motivational Scholarships for 3 years}
 
 %\section{Extra 1}
 %\cvlistitem{Item 1}
 %\cvlistitem{Item 2}
 %\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
 
-\section{INTERESTS}
+\section{Interests and Hobbies}
 \cvlistdoubleitem{swimming}{running}
 \cvlistdoubleitem{investment}{reading}
 

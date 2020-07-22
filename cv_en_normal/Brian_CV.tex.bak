@@ -102,17 +102,17 @@
 \cvline{}{$\bullet$ Implement network framework, resource management framework and Lua UI framework for client development.}
 \cvline{Operation}{$\bullet$ Build monitoring, alarm system and game dashboard to facilitate operation}
 \cvline{}{$\bullet$ Use docker and deployment scripts to fast deploy game server to 300+ machines; }
-\cvline{}{$\bullet$ Resolve issues: 502 responses in high-concurrency situations, request replay attacks, abnormal disconnect of redis connections, game accelerator, mongo attack and so on.}
+\cvline{}{$\bullet$ Solve online issues: 502 responses in high-concurrency situations, request replay attacks, abnormal disconnect of redis connections, game accelerator, mongo attack and so on.}
 
 
 \cventry{2013-2014.3}{SDE Intern}{Amazon China}{}{}{}
-\cvline{}{$\bullet$ Implement new functions and data visualization for reporting system.}
+\cvline{}{$\bullet$ Implemented new functions and data visualization of reporting system.}
 \cvline{}{$\bullet$ Extract and analyze report data and provide them with RESTful API.}
 
 \vspace{0.5em}
 \cventry{2011-2012.3}{SDE Intern}{Baidu Page Search Department}{}{}{}
-\cvline{}{$\bullet$ Participate in web page classification algorithm research project and improve classification accuracy by 5 percent}
-\cvline{}{$\bullet$ Accomplish web page weighting assistant system using PHP, half the time cost to weight web page}
+\cvline{}{$\bullet$ Participated in web page classification algorithm research project and improve classification accuracy by 5 percent}
+\cvline{}{$\bullet$ Accomplished web page weighting assistant system using PHP, half the time cost to weight web page}
 
 %\section{Extracurricular Activities}
 %\cventry{2009--10}{Commencement representative}{Drexel University College of Medicine}{Philadelphia, PA}{}{}
@@ -133,7 +133,7 @@
 %\cvlistitem{Item 2}
 %\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
 
-\section{INTERESTS}
+\section{Interests and Hobbies}
 \cvlistdoubleitem{swimming}{running}
 \cvlistdoubleitem{investment}{reading}
 
